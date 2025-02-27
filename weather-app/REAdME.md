@@ -23,13 +23,11 @@ A simple web application that allows users to check the current weather of any c
 ## API Integration
 - This app uses the **Weatherbit API**.
 - The API request is sent in the format:
-  ```
   https://api.weatherbit.io/v2.0/current?city=CITY_NAME&key=YOUR_API_KEY
-  ```
 - Replace `YOUR_API_KEY` with your actual API key from [Weatherbit](https://www.weatherbit.io/).
 
 ## Project Structure
-```
+
 weather-app/
 │── index.html    # Main HTML file
 │── style.css     # Stylesheet
@@ -37,13 +35,7 @@ weather-app/
 │── README.md     # Project documentation
 
 
-## Installation & Setup
-1. Clone or download the repository.
-   
-   git clone https://github.com/yourusername/weather-app.git
-   
-2. Open the `index.html` file in a browser.
-3. Enjoy checking the weather!
+
 
 ## Future Improvements
 - Add a forecast feature
